@@ -1,0 +1,6 @@
+kafka-python
+Flask
+twilio
+requests
+ddgs
+psycopg2-binary

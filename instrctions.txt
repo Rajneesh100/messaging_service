@@ -1,0 +1,12 @@
+
+
+
+build and push
+docker build -t rajneesh2311/whatsapp-webhook-service:latest .
+docker push rajneesh2311/whatsapp-webhook-service:latest
+
+for linux:
+docker buildx build --platform linux/amd64,linux/arm64 -t rajneesh2311/whatsapp-webhook-service:latest --push .
+
+rebuild:
+docker buildx build --platform linux/amd64 -t rajneesh2311/whatsapp-webhook-service:latest --push .
